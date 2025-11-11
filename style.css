@@ -122,3 +122,42 @@ body.s1{
   .mlink li:nth-child(5)
   {animation-delay: 1.2s;}
   
+
+.cara{
+  
+  display: flex;
+  margin: 50px auto;
+  width: 80%;
+  overflow-x: auto;
+}
+
+.cara::-webkit-scrollbar{
+  display: none;
+}
+
+.g{display: flex;
+  
+  gap: 1em;
+  padding-right: 1em;
+  align-items: center;
+  justify-content: center;
+  animation: z 20s infinite linear;
+
+}
+
+.ci{
+  padding: 1em;
+  background:darkslategrey;
+  border-radius: .4em;
+  font-size: 3rem;
+  text-align: center;
+  align-content: center;
+  height: 5em;
+  padding-bottom: 70px;
+
+
+}
+
+@keyframes z{
+  from {translate: 0;}  to {translate: -100%;}
+}
